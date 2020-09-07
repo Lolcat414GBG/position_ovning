@@ -10,6 +10,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
+    box-shadow: 2px 2px 12px #999;
 }
 
 nav {
