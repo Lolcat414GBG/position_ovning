@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 100%;
+    background-color: rgb(238, 179, 53);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul li {
+    margin: 20px 0 20px 20px;
+    float: right;
+    text-transform: uppercase;
+    display: flex;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+ul li:first-child {
+    float: left;
+    margin: 20px 0 20px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    margin: 50px auto;
+}
