@@ -32,9 +32,13 @@ ul li:first-child {
     margin: 20px 0 20px 0;
 }
 
+.main-wrapper {
+    margin: 100px 0;
+}
+
 .container {
     max-width: 600px;
-    margin: 100px auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -42,6 +46,7 @@ h1 {
     line-height: 1.2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
+    font-size: 1.5em;
 }
 
 h2 {
